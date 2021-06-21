@@ -1,6 +1,6 @@
 {
-  "name": "helloworld",
-	"displayName": "helloworld",
+  "name": "hello-world",
+	"displayName": "hello-world",
 	"description": "LEAVE BLANK",
 	"version": "0.0.1",
 	"engines": {
@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:helloworld.helloWorld"
+        "onCommand:hello-world.helloWorld"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "helloworld.helloWorld",
+				"command": "hello-world.helloWorld",
 				"title": "Hello World"
 			}
 		]
